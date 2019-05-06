@@ -10,7 +10,7 @@
 
 .github_download <-
     function(issue,
-             download_path="~/Documents/bioc_package_reviews")
+             download_path="~/Documents/bioc/package_reviews")
 {
     message("downloading ", sQuote(issue$title))
     repos <- sub(".*Repository: *([[:alnum:]/:\\.-]+).*", "\\1",
