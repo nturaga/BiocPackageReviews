@@ -4,9 +4,10 @@ Version: 0.0.0.9000
 Authors@R: person("Nitesh", "Turaga", email = "nitesh.turaga@roswellpark.org", role = c("aut", "cre"))
 Description: Download packages assigned to core-team member, review the R code according to a few
 	     base rules which all bioconductor developers need to follow, provide a template for
-	     the core-team to post as a review to Github's Bioconductor/Contributions.
+	     the core-team to post as a review to Github Bioconductor/Contributions.
 Depends: R (>= 3.4.1),
-	 httr
+	 httr,
+	 whisker
 License: MIT
 Encoding: UTF-8
 LazyData: true

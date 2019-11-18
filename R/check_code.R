@@ -14,6 +14,14 @@ capture_BiocCheck_output<-
 }
 
 
+build <-
+    function(package)
+{
+    devtools::build(package)
+}
+
+
+
 #' Make a markdown report
 #' @param package Take the package path
 #' @export
